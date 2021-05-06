@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.middle {
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+.left,
+.right {
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background: #000000;
+  border: solid 5px #0303ab;
+}
+
+nav {
+  visibility: visible;
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+
+nav > a {
+  display: inline-block;
+  float: left;
+  padding: 1% 70px;
+  border: 3px solid #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  font-family: Roboto;
+  font-size: 1.6em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+
+nav > a:hover {
+  background: #e93083;
+  color: #ffffff;
+}
+
+nav > a:active {
+  background-color: #ffffff;
+  color: #e93083;
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+nav > a:focus {
+  background: #e93083;
+  color: #ffffff;
+}
+
+nav > h1 {
+  float: right;
+  background: #0303ab;
+  color: #00ff19;
+}
+
+.grzyb {
+  width: 5%;
+  height: 5%;
+  display: inline-block;
+}
+
+#adoldman {
+  border-radius: 50%;
+  border: 10px solid #ff0000;
+}
+
+.left > p {
+  font-family: Arial;
+  font-size: 2em;
+  background: #ffc178;
+  padding: 10%;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 100%;
+}
+
+.miasta {
+  width: 100%;
+  height: 800px;
+}
+
+#powitanie {
+  width: 100%;
+  margin: -30px 0px 0px 0px;
+}
+
+.baner {
+  width: 33.3%;
+  margin: -5px;
+  transform: rotate(-20deg);
+}
+
+#shrek {
+  width: 100%;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: Courier;
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+}
+
+#gift {
+  width: 100%;
+  margin-top: 10%;
+  border: solid 10px #5c3d00;
+}
+
+#adv {
+  width: 100%;
+}
+
+#low-part {
+  font-family: Courier;
+  color: #ffffff;
+  text-align: center;
+}
+
+ul {
+  font-weight: normal;
+}
+
+footer {
+  color: #ffffff;
+  font-family: "Comic Sans", cursive;
+  text-align: center;
+}
+
+.right > * {
+  width: 100%;
+  color: yellow;
+  font-family: "Comic Sans", cursive;
+}
+
+#bazant {
+  margin-top: -80px;
+}
+
+.right > h1,
+p {
+  background: red;
+}
