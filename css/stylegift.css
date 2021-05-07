@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  border: solid 5px #0303ab;
+  color: #ffffff
+}
+
+table{
+  margin: 0px 10%;
+}
+
+h1{
+  text-align:center;
+}
+
+tr, td{
+  border: solid #FFFFFF;
+  padding: 2%;
+}
+
+tr{
+  background: red;
+}
+
+.quote{
+  background: green;
+  font-style: italic;
+}
+
+div{
+  text-align: center;
+}
+
+img{
+ width: 40%;
+ margin: 0px 30%;
+}
+
+footer {
+  color: #ffffff;
+  font-family: "Comic Sans", cursive;
+  text-align: center;
+}
+
+tr{
+ padding: 2%
+}
